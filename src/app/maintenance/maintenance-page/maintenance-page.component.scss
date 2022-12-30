@@ -4,11 +4,19 @@
     height: 150px;
   }
 }
+.main-wapper {
+  background: url(..//..//../assets/img/maintenancelogo.png) center center
+    no-repeat;
+  background-size: contain;
+}
 .custom_container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .page-wapper {
