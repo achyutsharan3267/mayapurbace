@@ -1,0 +1,56 @@
+.banner {
+  background: rgba(222, 141, 56, 0.7);
+}
+
+.banner-wapper {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  flex-direction: column;
+  img {
+    width: 200px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  span {
+    display: block;
+    margin-left: auto;
+    text-align: right;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner-wapper {
+    flex-direction: row;
+    img {
+      width: 300px;
+    }
+    p {
+      font-size: 25px;
+      line-height: 30px;
+      font-weight: 600;
+      padding: 10px 0px 10px;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner-wapper {
+    flex-direction: row;
+    img {
+      width: 500px;
+    }
+    p {
+      font-size: 45px;
+      line-height: 50px;
+      padding: 50px 0 0 50px;
+    }
+  }
+}
