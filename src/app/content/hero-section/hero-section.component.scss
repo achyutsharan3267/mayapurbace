@@ -1,29 +1,15 @@
 .banner {
-  background: rgba(222, 141, 56, 0.7);
+  max-height: 800px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
-
-.banner-wapper {
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 0;
-  flex-direction: column;
+.contianer-fluid {
+  max-width: 1290px !important;
+  width: 100%;
+}
+.banner {
   img {
-    width: 200px;
-  }
-  p {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 0;
-  }
-  span {
-    display: block;
-    margin-left: auto;
-    text-align: right;
-    font-size: 10px;
-    line-height: 15px;
-    font-weight: bold;
+    width: 100%;
   }
 }
 
@@ -44,6 +30,7 @@
 @media screen and (min-width: 992px) {
   .banner-wapper {
     flex-direction: row;
+    margin-bottom: 50px;
     img {
       width: 500px;
     }

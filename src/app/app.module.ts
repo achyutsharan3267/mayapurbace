@@ -6,6 +6,8 @@ import { MaintenancePageComponent } from './maintenance/maintenance-page/mainten
 import { HeaderComponent } from './container/header/header.component';
 import { HeroSectionComponent } from './content/hero-section/hero-section.component';
 import { AboutUsComponent } from './content/about-us/about-us.component';
+import { CelebrationComponent } from './content/celebration/celebration.component';
+import { ActivitiesComponent } from './content/activities/activities.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { AboutUsComponent } from './content/about-us/about-us.component';
     MaintenancePageComponent,
     HeaderComponent,
     HeroSectionComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    CelebrationComponent,
+    ActivitiesComponent
   ],
   imports: [
     BrowserModule
